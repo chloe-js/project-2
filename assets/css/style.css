@@ -12,10 +12,9 @@ body {
     cursor: pointer;
     font-size: 5em;
     margin: 0 10px;
-    transition: 0.2s;
-    
-    &:hover {
+    transition: 0.2s;}
+.playerChoice:hover {
        transform: scale(1.1);
     }
- }
+ 
  

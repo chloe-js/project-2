@@ -1,12 +1,14 @@
+
+// https://codepen.io/rpandrews/pen/oKRLxY
 let playerChoice = document.querySelectorAll('.playerChoice');
 
 for (var i = 0; i < playerChoice.length; i++) {
    playerChoice[i].addEventListener('click', function() {
-      const opponent = ['Rock', 'Paper', 'Scissors'];
+      const opponent = ['Rock', 'Paper', 'Scissors', 'Lizard','Spock'];
       const opponentHand = opponent[Math.floor(Math.random() * 5)];
 
       let playerHand = this.value;
-      
+      // https://codepen.io/rpandrews/pen/oKRLxY // limited, included new icons and choices
       if (playerHand === opponentHand) {
          alert(`It's a draw!\n${playerHand} vs ${opponentHand}`);
       } else if (playerHand === 'Scissors' && opponentHand === 'Paper') {
