@@ -25,14 +25,18 @@
          Rock, Paper, Scissors, Lizard, Spock
     </h1>
 
-    <nav> 
+    <button> 
         <a href="rules.html">Rules</a>
-    </nav>
+    </button>
 
+
+
+<!-- 
+    -----------------------------------------------------------------------------------------------------------------------
     <div class="game-area">
         <div class="controls-area">
             <button data-type="addition" class="btn btn--big btn--green">
-                <i class="fas fa-plus"></i>
+                <i class="fas fa-hand-paper"></i>
             </button>
             <button data-type="subtract" class="btn btn--big btn--blue">
                 <i class="fas fa-minus"></i>
@@ -67,13 +71,38 @@
     <div>
         <button><i class="fas fa-dice-five"></i> Rules</button>
     </div>
-   
-    <button id="rock" class="playerChoice" value="Rock"><i class="fas fa-hand-rock"></i></button>
-
-    <button id="paper" class="playerChoice" value="Paper"><i class="fas fa-hand-paper"></i></button>
-    <button id="scissors" class="playerChoice" value="Scissors"><i class="fas fa-hand-scissors"></i></button>
-    <button id="lizard" class="playerChoice" value="Lizard"><i class="fas fa-hand-lizard"></i></button>
-    <button id="spock" class="playerChoice" value="Spock"><i class="fas fa-hand-spock"></i></button>
+    <div class="score-area">
+        <p class="scores">Correct Answers <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+    </div>
+    <div class="game-area">
+        <div class="controls-area">
+            <button id='btn' data-type="rock" class="playerChoice" value="Rock">
+                <i class="fas fa-hand-rock"></i>
+            </button>
+            <button data-type="paper" class="playerChoice" value="Paper">
+                <i class="fas fa-hand-paper"></i>
+            </button>
+            <button data-type="scissors" class="playerChoice" value="Scissors">
+                <i class="fas fa-hand-scissors"></i>
+            </button>
+            <button data-type="lizard" class="playerChoice" value="Lizard">
+                <i class="fas fa-hand-lizard"></i>
+            </button>
+            <button data-type="spock" class="playerChoice" value="Spock">
+                <i class="fas fa-hand-spock"></i>
+            </button>
+        </div>
+        <div class="question-area">
+            <span id="operand1">0</span>
+            <span id="operator">x</span>
+            <span id="operand2">0</span>
+            <span>=</span>
+            <p class="answer-message">Enter Answer:</p>
+            <input id="answer-box" type="number">
+        </div>
+        <button data-type="submit" class="btn btn--gray">Submit Answer</button>
+    </div>
 
     <script src="assets/js/script.js"></script>
 
@@ -81,4 +110,4 @@
         <button data-type="playGame" class="buttonPlayGame">Play Game</button>
     </div>
 </body> 
-</html>
+</html> -->
