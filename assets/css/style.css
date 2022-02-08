@@ -1,0 +1,58 @@
+body {
+    background: orange;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+ }
+
+/* .buttonRun {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    margin: 0 10px;
+    transition: 0.2s;
+} */
+
+.playerChoice {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 5em;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+.playerChoice:hover {
+       transform: scale(1.1);
+    }
+
+/* div {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:0 auto;
+} */
+
+#rock{
+    color: red;
+}
+
+#paper{
+    color: blue;
+}
+#scissors{
+    color: green;
+}
+#lizard{
+    color: yellow;
+}
+#spock{
+    color: purple;
+}
+/* #rock {
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
